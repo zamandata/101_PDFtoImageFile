@@ -2,7 +2,7 @@
 import fitz
 
 # Create a document object
-doc = fitz.open('file1.pdf')  # or fitz.Document(filename)
+doc = fitz.open('file.pdf')  # or fitz.Document(filename)
 
 # Extract the number of pages (int)
 print(doc.page_count)
